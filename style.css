@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxanium&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oxanium', sans-serif;
+}
+
+.container{
+    height: 100vh;
+    width: 100%;
+    background: #303136;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.calc{
+    background: #171717;
+    padding: 26px;
+    border-radius: 20px;
+}
+
+h1{
+    text-align: center;
+    color: #fff;
+}
+
+input{
+    width: 330px;
+    padding: 25px;
+    margin: 10px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 45px;
+    text-align: right;
+    color: #fff;
+}
+
+input::placeholder{
+    color: #fff;
+}
+
+button{
+    border: none;
+    outline: none;
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    background: #303136;
+    font-size: 21px;
+    font-weight: 600;
+    color: #fff;
+    margin: 10px;
+    cursor: pointer;
+}
+
+button:hover{
+    color: #a3a3a3;
+}
+
+.operator{
+    width: 144px;
+    color: #fff;
+    background: orange;
+    font-weight: 700;
+}
+
+.main{
+    color: #fff;
+    background: orange;
+    font-weight: 400;
+}
+
+.operators{
+    color: #fff;
+    background: blueviolet;
+}
