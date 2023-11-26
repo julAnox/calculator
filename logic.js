@@ -23,6 +23,9 @@ document.addEventListener('DOMContentLoaded', function () {
                     inputBox.value = 'Error';
                 }
                 break;
+            case '%':
+                inputBox.value = (parseFloat(inputBox.value) / 100).toString();
+                break;
             default:
                 inputBox.value += value;
                 break;
